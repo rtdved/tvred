@@ -1,0 +1,102 @@
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+:root {
+  --red-color: #D9071F;
+  --gray-color: rgb(155, 155, 155);
+}
+
+.menu {
+  padding: 8px 0;
+}
+
+.menu--logo {
+  height: 60px;
+}
+
+.page-section--red {
+  background: var(--red-color);
+  min-height: 300px;
+}
+
+.page-section--white {
+  background: white;
+}
+
+.product-item {
+  border: 2px solid var(--red-color);
+  background-color: #d9071f1a;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 100%;
+  padding: 24px 8px 8px 8px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.product-item h3 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.product-item h4 {
+  color: var(--red-color);
+  margin: 0;
+}
+
+.product-item img {
+  width: 50%;
+  margin: 32px 0;
+  border-radius: 8px;
+}
+
+.product-item span {
+  color: var(--gray-color);
+}
+
+.product-item strong {
+  color: black;
+}
+
+.product-item .btn {
+  margin-top: 24px;
+  background-color: var(--red-color);
+  width: 100%;
+  padding: 8px;
+}
+
+.product-item .btn img {
+  height: 24px;
+  width: 24px;
+  margin: 0;
+  filter: invert(1);
+  margin-right: 8px;
+}
+
+.section-title,
+.section-title--white {
+  color: black;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.section-title--white {
+  color: white;
+}
+
+.eppi-cinema {
+  max-height: 400px;
+}
+
+.pright {
+  float: right;
+}
